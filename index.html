@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="container__head">
+            <h1>Panier</h1>
+        </div>           
+        <div class="container__header">
+            <span>Nom de l'article</span>
+            <span>Quantité</span>
+            <span>Prix unitaire</span>
+            <span>Sous total</span>
+        </div>
+        <div class="container__article">
+            <div class="container__article--element">
+
+            </div>
+            <div class="container--footer">
+                <input class = "articleName" type="text" placeholder = "Nom de l'article" />
+                <input class = "montant" type="number" placeholder = "Montant article"/>
+                <button class="button">Ajouter un article</button>
+            </div>
+        </div>
+    </div>
+    <div class="pannier--price">
+        <h4>Total :</h4>
+        <div class = "montantT"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
